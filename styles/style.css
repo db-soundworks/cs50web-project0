@@ -1,14 +1,89 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
 .roundedBorder {
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
     width: 500px;
 }
 
+.googleImagesText {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    align-self: flex-end;
+    position: relative;
+    right: 30px;
+}
+
+h1 {
+    color: #d93025;
+    font-size: large;
+    margin: 25px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: 50;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.offsetLogo {
+    position: relative;
+    right: -27px;
+}
+
+.btn-search {
+    width: 120px;
+    height: 30px;
+}
+
 .box {
     display: flex;
+    align-items: center;
     justify-content: center;
     margin: 30px;
+}
+
+.sectionDivider {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 50px;
+}
+
+.advancedFormColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.advancedFormRow {
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.advCol1 {
+    flex: .4;
+    align-self: flex-start;
+}
+
+.advInput {
+    flex: 1;
+    align-self: flex-start;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.advCol2 {
+    flex: 1;
+    align-self: flex-start;
 }
 
 .navTop {
@@ -17,6 +92,7 @@
     padding-bottom: 10px;
     text-align: right;
 }
+
 .topNavLink {
     padding-right: 20px;
     color: blue;

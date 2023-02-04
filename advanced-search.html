@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CS50 Web Project 0</title>
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <nav class="navTop">
+        <a class="topNavLink" href="index.html" alt="Google Search">Google Search</a>
+      </nav>
+      <section class="advancedform">
+        <h1>Advanced Search</h1>
+        <div class="sectionDivider"></div>
+        <form class="advancedFormColumn" action="https://www.google.com/search">
+
+          <div class="advancedFormRow">
+            <div class="advCol1"><h2>Find pages with...</h2></div>
+            <div class="advInput"></div>
+            <div class="advCol2"><h3>To do this in the search box...</h3></div>
+          </div>
+
+          <div class="advancedFormRow">
+            <div class="advCol1">all these words:</div>
+            <input class="advInput" type="text" name="q">
+            <div class="advCol2">Type the important words:  tricolor rat terrier</div>
+          </div>
+
+          <div class="advancedFormRow">
+            <div class="advCol1">this exact word or phrase:</div>
+            <input class="advInput" type="text" name="q">
+            <div class="advCol2">Put exact words in quotes:  "rat terrier"</div>
+          </div>
+
+          <div class="advancedFormRow">
+            <div class="advCol1">any of these words:</div>
+            <input class="advInput" type="text" name="q">
+            <div class="advCol2">Type OR between all the words you want:  miniature OR standard</div>
+          </div>
+
+          <div class="advancedFormRow">
+            <div class="advCol1">none of these words:</div>
+            <input class="advInput" type="text" name="q">
+            <div class="advCol2">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</div>
+          </div>
+          
+          <div class="advancedFormRow">
+            <div class="advCol1"></div>
+            <input class="btn-advanced" type="submit" value="Advanced Search">
+            <div class="advCol2"></div>
+          </div>
+
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
